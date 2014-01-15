@@ -1,0 +1,4 @@
+/framework
+protected/config/main.php
+
+protected/components/UserIdentity.php
