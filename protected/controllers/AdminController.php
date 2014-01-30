@@ -13,7 +13,20 @@ class AdminController extends Controller
 
     public function actionIndex(){		
         $lista = $this->usuario->findAll(array('order'=>'create_at'));
-        $this->render('index', array('lista' => $lista )); 
+        
+        $connection=Yii::app()->db; 
+
+        $sql="SELECT COUNT(*) as Total, create_at as data,  MONTH(create_at) as mon FROM users GROUP BY date(create_at);";
+        $command=$connection->createCommand($sql);
+        $rows = $command->queryAll();
+        $stats = '';
+        foreach ($rows as $key => $value) {
+            if($stats) $stats .= ',';
+
+            $stats .= "[".(strtotime($value['data']) * 1000).",".$value['Total']."]";
+        }
+
+        $this->render('index', array('lista' => $lista, 'stats' => $stats )); 
 	}
 
 	public function actionLogin(){
@@ -115,7 +128,7 @@ class AdminController extends Controller
        return ob_get_clean();
     }
 
-    function download_send_headers($filename)
+    function download_send_headers($filename)   
     {
         // disable caching
         $now = gmdate("D, d M Y H:i:s");

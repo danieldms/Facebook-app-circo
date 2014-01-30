@@ -8074,3 +8074,75 @@ Stack trace:
 REQUEST_URI=/appcirco/admin/index
 in /Applications/MAMP/htdocs/appcirco/protected/controllers/AdminController.php (10)
 in /Applications/MAMP/htdocs/appcirco/index.php (13)
+2014/01/16 00:22:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/admin/vendor/jquery.min.map".' in /Applications/MAMP/htdocs/appcirco/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/appcirco/framework/web/CWebApplication.php(141): CWebApplication->runController('js/admin/vendor...')
+#1 /Applications/MAMP/htdocs/appcirco/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/appcirco/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/appcirco/js/admin/vendor/jquery.min.map
+HTTP_REFERER=http://localhost:8888/appcirco/admin
+---
+2014/01/16 00:23:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/admin/vendor/jquery.min.map".' in /Applications/MAMP/htdocs/appcirco/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/appcirco/framework/web/CWebApplication.php(141): CWebApplication->runController('js/admin/vendor...')
+#1 /Applications/MAMP/htdocs/appcirco/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/appcirco/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/appcirco/js/admin/vendor/jquery.min.map
+HTTP_REFERER=http://localhost:8888/appcirco/admin
+---
+2014/01/16 00:23:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/admin/vendor/jquery.min.map".' in /Applications/MAMP/htdocs/appcirco/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/appcirco/framework/web/CWebApplication.php(141): CWebApplication->runController('js/admin/vendor...')
+#1 /Applications/MAMP/htdocs/appcirco/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/appcirco/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/appcirco/js/admin/vendor/jquery.min.map
+HTTP_REFERER=http://localhost:8888/appcirco/admin
+---
+2014/01/16 00:24:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/admin/vendor/jquery.min.map".' in /Applications/MAMP/htdocs/appcirco/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/appcirco/framework/web/CWebApplication.php(141): CWebApplication->runController('js/admin/vendor...')
+#1 /Applications/MAMP/htdocs/appcirco/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/appcirco/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/appcirco/js/admin/vendor/jquery.min.map
+HTTP_REFERER=http://localhost:8888/appcirco/admin
+---
+2014/01/16 00:24:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/admin/vendor/jquery.min.map".' in /Applications/MAMP/htdocs/appcirco/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/appcirco/framework/web/CWebApplication.php(141): CWebApplication->runController('js/admin/vendor...')
+#1 /Applications/MAMP/htdocs/appcirco/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/appcirco/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/appcirco/js/admin/vendor/jquery.min.map
+HTTP_REFERER=http://localhost:8888/appcirco/admin
+---
+2014/01/16 00:24:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/admin/vendor/jquery.min.map".' in /Applications/MAMP/htdocs/appcirco/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/appcirco/framework/web/CWebApplication.php(141): CWebApplication->runController('js/admin/vendor...')
+#1 /Applications/MAMP/htdocs/appcirco/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/appcirco/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/appcirco/js/admin/vendor/jquery.min.map
+HTTP_REFERER=http://localhost:8888/appcirco/admin
+---
+2014/01/16 00:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/admin/vendor/jquery.min.map".' in /Applications/MAMP/htdocs/appcirco/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/appcirco/framework/web/CWebApplication.php(141): CWebApplication->runController('js/admin/vendor...')
+#1 /Applications/MAMP/htdocs/appcirco/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/appcirco/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/appcirco/js/admin/vendor/jquery.min.map
+HTTP_REFERER=http://localhost:8888/appcirco/admin
+---
+2014/01/16 00:26:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/admin/vendor/jquery.min.map".' in /Applications/MAMP/htdocs/appcirco/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/appcirco/framework/web/CWebApplication.php(141): CWebApplication->runController('js/admin/vendor...')
+#1 /Applications/MAMP/htdocs/appcirco/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/appcirco/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/appcirco/js/admin/vendor/jquery.min.map
+HTTP_REFERER=http://localhost:8888/appcirco/admin
+---
